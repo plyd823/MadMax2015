@@ -1,5 +1,4 @@
-#define BATCH_GAME_826130353_17_50
-#include "build/Win64/Final/ctg/components/GameSystem/include/GameSystem/Online/EventStructs_gen.h"
+#include "GameSystem/Online/EventStructs_gen.h"
 
 #ifdef BATCH_GAME_826130353_17_50
 
@@ -75,8 +74,6 @@ CHashString OpenWorldProgressionEvent::ClassId() {
 
 #endif
 
-#define BATCH_GAME_826130353_18_50
-#include "build/Win64/Final/ctg/components/GameSystem/include/GameSystem/Online/EventStructs_gen.h"
 
 #ifdef BATCH_GAME_826130353_18_50
 

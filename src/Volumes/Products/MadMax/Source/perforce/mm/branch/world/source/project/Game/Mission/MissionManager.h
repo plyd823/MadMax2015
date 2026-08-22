@@ -7,24 +7,18 @@ namespace NMissionSystem {
 }
 
 #include <cstdint>
-#include <array>
-#include <list>
-#include <map>
 #include <memory>
-#include <string>
-#include <unordered_map>
-#include <utility>
 #include <vector>
-#include "build/Win64/Final/ctg/components/Base/include/Base/Misc/Event.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Math/Matrix.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Math/Vector.h"
-#include "project/Game/Mission/adf/mission_types.h"
-#include "build/Win64/Final/ctg/components/Base/include/Base/Misc/AppSystem.h"
-#include "project/Game/Mission/adf/restartpoint_types.h"
-#include "build/Win64/Final/ctg/components/Base/include/Base/Types/Static_string.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/FileHandling/Parsing/RuntimeContainer.h"
-#include "build/Win64/Final/ctg/components/Base/include/Base/Misc/AppSystem.h"
-#include "libs/ResourceCache/main/include/ResourceCache/ResourceCache.h"
+#include "Base/Misc/Event.h"
+#include "AvaCore/Math/Matrix.h"
+#include "AvaCore/Math/Vector.h"
+#include "Game/Mission/adf/mission_types.h"
+#include "Base/Misc/AppSystem.h"
+#include "Game/Mission/adf/restartpoint_types.h"
+#include "Base/Types/Static_string.h"
+#include "AvaCore/FileHandling/Parsing/RuntimeContainer.h"
+#include "Base/Misc/AppSystem.h"
+#include "ResourceCache/ResourceCache.h"
 
 namespace NMissionSystem {
     class CMissionManager : public CAvaSingle<NMissionSystem::CMissionManager>, public Base::IAppSystem, public NEvent::CEventHandler {

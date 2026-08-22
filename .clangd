@@ -1,2 +1,13 @@
 CompileFlags:
   Add: -ferror-limit=100
+
+Diagnostics:
+  Suppress:
+    - auto_missing_trailing_return
+    - constexpr_body_invalid_stmt
+    - deduced_return_type
+    - typecheck_assign_const
+    - defaulted_special_member_quals
+    - constexpr_non_literal_return
+    - typecheck_nonviable_condition
+    - ovl_diff_return_type

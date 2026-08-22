@@ -11,15 +11,15 @@
 #ifndef PROJECT_GAME_ITEM_H
 #define PROJECT_GAME_ITEM_H
 
-#include "build/Win64/Final/ctg/components/Base/include/Base/Misc/Event.h"
-#include "build/Win64/Final/ctg/components/GameSystem/include/GameSystem/GameObject/Physics/PhysicsGameObject.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Math/Matrix.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Math/Vector.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Math/Quaternion.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Types/HashString.h"
-#include "project/Game/Character/Character.h"
-#include "project/Game/Equipment/Item/ItemAttachedEffectComponent.h"
-#include "build/Win64/Final/ctg/components/GameSystem/include/GameSystem/EffectSystem/CollisionEffectsExtension.h"
+#include "Base/Misc/Event.h"
+#include "GameSystem/GameObject/Physics/PhysicsGameObject.h"
+#include "AvaCore/Math/Matrix.h"
+#include "AvaCore/Math/Vector.h"
+#include "AvaCore/Math/Quaternion.h"
+#include "AvaCore/Types/HashString.h"
+#include "Game/Character/Character.h"
+#include "Game/Equipment/Item/ItemAttachedEffectComponent.h"
+#include "GameSystem/EffectSystem/CollisionEffectsExtension.h"
 
 class CItemObject : public CPhysicsGameObject, public NEvent::CEventHandler {
     protected: 

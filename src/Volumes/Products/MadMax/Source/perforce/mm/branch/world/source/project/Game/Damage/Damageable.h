@@ -4,10 +4,10 @@
 struct SGameObjectSetPropertiesContext;
 class CDamageInflictor;
 
-#include "build/Win64/Final/ctg/components/Base/include/Base/Misc/Event.h"
+#include "Base/Misc/Event.h"
 #include "build/Win64/Final/ctg/components/GameSystem/include/GameSystem/GameObject/Physics/PhysicsGameObject.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Types/HashString.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Math/Matrix.h"
+#include "AvaCore/Types/HashString.h"
+#include "AvaCore/Math/Matrix.h"
 #include "project/Game/GameObject/Healthbar.h"
 
 class CDamageable : public CPhysicsGameObject, public NEvent::CEventHandler {

@@ -54,6 +54,7 @@ cflags_common: [
     "-I/mm/src/Volumes/Products/MadMax/Source/perforce/mm/branch/world/source/build/Win64/Final/ctg/components/Base/include",
     "-I/mm/src/Volumes/Products/MadMax/Source/perforce/ctg/components/GameSystem/include",
     "-I/mm/src/Volumes/Products/MadMax/Source/perforce/mm/branch/world/source/build/Win64/Final/ctg/components/GameSystem/include",
+    "-I/mm/src/Volumes/Products/MadMax/Source/perforce/mm/branch/world/source/build/Win64/Final/ctg/components/GameSystem/source",
     "-I/mm/src/Volumes/Products/MadMax/Source/perforce/ctg/components/Graphics/include",
     "-I/mm/src/Volumes/Products/MadMax/Source/perforce/mm/branch/world/source/build/Win64/Final/ctg/components/Graphics/include",
     "-I/mm/src/Volumes/Products/MadMax/Source/perforce/ctg/components/Input/include",
@@ -67,6 +68,7 @@ cflags_common: [
 
     # ctg libraries
     "-I/mm/src/Volumes/Products/MadMax/Source/perforce/ctg/libs/ADF/main/include",
+    "-I/mm/src/Volumes/Products/MadMax/Source/perforce/ctg/libs/ADF/main/source",
     "-I/mm/src/Volumes/Products/MadMax/Source/perforce/ctg/libs/BFBC/main/include",
     "-I/mm/src/Volumes/Products/MadMax/Source/perforce/ctg/libs/Console/main/include",
     "-I/mm/src/Volumes/Products/MadMax/Source/perforce/ctg/libs/CoreLibs/main/include",

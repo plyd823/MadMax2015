@@ -1,7 +1,7 @@
 #ifndef PROJECT_GAME_AVATAR_H
 #define PROJECT_GAME_AVATAR_H
 
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Types/Rtti.h"
+#include "AvaCore/Types/Rtti.h"
 #include "project/Game/Character/Character.h"
 #include "project/Game/Equipment/Item/Weapon/Weapon.h"
 

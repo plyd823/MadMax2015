@@ -11,7 +11,7 @@
 #include <utility>
 #include <vector>
 
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Math/Vector.h"
+#include "AvaCore/Math/Vector.h"
 
 class CGraphRenderer {
     struct SEntry {

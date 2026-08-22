@@ -8,11 +8,11 @@ namespace NMissionSystem {
     enum EMissionEventType : int;
 }
 
-#include "build/Win64/Final/ctg/components/Base/include/Base/Misc/Event.h"
-#include "project/Game/Mission/adf/mission_types.h"
-#include "build/Win64/Final/ctg/components/GameSystem/include/GameSystem/Online/EventStructs_gen.h"
-#include "build/Win64/Final/ctg/components/GameSystem/include/GameSystem/SaveSystem/SaveContainer.h"
-#include "project/Game/Mission/MissionManager.h"
+#include "Base/Misc/Event.h"
+#include "Game/Mission/adf/mission_types.h"
+#include "GameSystem/Online/EventStructs_gen.h"
+#include "GameSystem/SaveSystem/SaveContainer.h"
+#include "Game/Mission/MissionManager.h"
 
 namespace NMissionSystem {
     enum EMissionEventType : int32_t {

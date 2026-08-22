@@ -3,7 +3,7 @@
 
 class SResourceCache;
 
-#include "libs/ADF/main/source/Common/Adf/AdfCommon.h"
+#include "Common/Adf/AdfCommon.h"
 
 namespace Base {
     class IAppSystem {

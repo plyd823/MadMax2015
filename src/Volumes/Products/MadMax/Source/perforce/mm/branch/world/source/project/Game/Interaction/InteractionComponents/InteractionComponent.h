@@ -12,9 +12,9 @@ class CInteractionUserProxy;
 #include <unordered_map>
 #include <utility>
 #include <vector>
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Types/Rtti.h"
+#include "AvaCore/Types/Rtti.h"
 #include "project/Game/Interaction/InteractionContext.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/FileHandling/Parsing/RuntimeContainer.h"
+#include "AvaCore/FileHandling/Parsing/RuntimeContainer.h"
 #include "project/Game/Interaction/InteractionUserProxy.h"
 
 class CInteractionComponent : public CRtti {

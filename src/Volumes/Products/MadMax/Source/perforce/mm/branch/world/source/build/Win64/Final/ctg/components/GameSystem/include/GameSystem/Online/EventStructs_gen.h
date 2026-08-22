@@ -2,17 +2,11 @@
 #define COMPONENT_EVENT_STRUCTS_GEN_H
 
 #include <cstdint>
-#include <array>
-#include <list>
-#include <map>
 #include <memory>
 #include <string>
-#include <unordered_map>
-#include <utility>
-#include <vector>
 
-#include "build/Win64/Final/ctg/components/GameSystem/include/GameSystem/Online/EventStructs.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Types/HashString.h"
+#include "GameSystem/Online/EventStructs.h"
+#include "AvaCore/Types/HashString.h"
 
 class GlobalDifficultySetting : public SEventBaseData {
     public:

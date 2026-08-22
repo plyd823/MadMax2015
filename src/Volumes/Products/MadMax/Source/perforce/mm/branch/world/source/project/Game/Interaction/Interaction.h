@@ -4,9 +4,9 @@
 class CInteractionUserProxy;
 class CInteractionMessageData;
 
-#include "build/Win64/Final/ctg/components/Base/include/Base/Misc/Event.h"
-#include "project/Game/Interaction/InteractionComponents/InteractionComponent.h"
-#include "project/Game/Interaction/InteractionCondition.h"
+#include "Base/Misc/Event.h"
+#include "Game/Interaction/InteractionComponents/InteractionComponent.h"
+#include "Game/Interaction/InteractionCondition.h"
 
 class CInteraction : public NEvent::CEventHandler {
     struct SInteractionActivator {

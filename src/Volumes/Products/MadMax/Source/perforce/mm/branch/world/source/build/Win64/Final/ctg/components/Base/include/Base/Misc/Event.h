@@ -1,7 +1,7 @@
 #ifndef COMPONENT_EVENT_H
 #define COMPONENT_EVENT_H
 
-#include "build/Win64/Final/ctg/components/Base/include/Base/Misc/EventArguments.h"
+#include "Base/Misc/EventArguments.h"
 
 namespace NEvent {
     struct CEventData;
@@ -24,16 +24,8 @@ struct TEventHandle;
 class CEventSystem;
 
 #include <cstdint>
-#include <array>
-#include <list>
-#include <map>
-#include <memory>
-#include <string>
-#include <unordered_map>
-#include <utility>
-#include <vector>
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Misc/Singleton.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Types/EventID.h"
+#include "AvaCore/Misc/Singleton.h"
+#include "AvaCore/Types/EventID.h"
 
 struct TEventHandle {
     uint64_t dummy;

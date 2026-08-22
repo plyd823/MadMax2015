@@ -15,7 +15,7 @@ struct SObjectID;
 #include <utility>
 #include <vector>
 
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/FileHandling/Parsing/Variant.h"
+#include "AvaCore/FileHandling/Parsing/Variant.h"
 
 class CRuntimeContainerVariant {
     private: 

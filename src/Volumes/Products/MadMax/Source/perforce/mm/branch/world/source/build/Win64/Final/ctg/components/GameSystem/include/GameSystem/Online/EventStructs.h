@@ -11,7 +11,7 @@
 #include <utility>
 #include <vector>
 
-#include "build/Win64/Final/ctg/components/GameSystem/include/GameSystem/Online/IEventData.h"
+#include "GameSystem/Online/IEventData.h"
 
 struct SEventBaseData : public NMetricsEvent::IEventData {
     public:

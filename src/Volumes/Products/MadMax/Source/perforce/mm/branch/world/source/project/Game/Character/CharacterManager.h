@@ -7,7 +7,7 @@ namespace NCharacterSystem {
     };
 };
 
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Misc/Singleton.h"
+#include "AvaCore/Misc/Singleton.h"
 #include "project/Game/Character/Character.h"
 #include "build/Win64/Final/ctg/components/Base/include/Base/Misc/AppSystem.h"
 

@@ -1,4 +1,3 @@
-#define BATCH_GAME_826130353_19_50
 #include "Player.h"
 
 #ifdef BATCH_GAME_826130353_19_50

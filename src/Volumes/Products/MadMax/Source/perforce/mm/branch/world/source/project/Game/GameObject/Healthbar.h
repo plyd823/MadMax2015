@@ -1,10 +1,10 @@
 #ifndef PROJECT_GAME_HEALTHBAR_H
 #define PROJECT_GAME_HEALTHBAR_H
 
-#include "build/Win64/Final/ctg/components/Base/include/Base/Misc/Event.h"
+#include "Base/Misc/Event.h"
 #include "build/Win64/Final/ctg/components/GameSystem/include/GameSystem/GameObject/GameObject.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Math/Matrix.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Types/ObjectID.h"
+#include "AvaCore/Math/Matrix.h"
+#include "AvaCore/Types/ObjectID.h"
 #include "project/Game/GameObject/TurnTakerGameObject.h"
 
 enum EHealthbarType : int32_t {

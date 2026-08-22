@@ -4,28 +4,22 @@
 class CInteractionUserProxy;
 
 #include <cstdint>
-#include <array>
-#include <list>
-#include <map>
 #include <memory>
-#include <string>
-#include <unordered_map>
-#include <utility>
 #include <vector>
-#include "libs/CoreLibs/main/include/ALib/Array.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Math/Matrix.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Math/Vector.h"
-#include "project/Game/Interaction/InteractionGraphData/InteractionGraphUserEdge.h"
-#include "project/Game/Interaction/InteractionGraphData/InteractionGraphExit.h"
-#include "project/Game/Interaction/InteractionGraphEntry.h"
-#include "project/Game/Interaction/InteractionGraphData/InteractionGraphTransition.h"
-#include "project/Game/Interaction/InteractionGraphData/InteractionGraphNode.h"
-#include "project/Game/Interaction/InteractionGraph.h"
-#include "project/Game/Interaction/InteractionTrigger.h"
-#include "project/Game/Interaction/InteractionContext.h"
-#include "project/Game/Interaction/Interaction.h"
-#include "build/Win64/Final/engine/AvaCore/main/AvaCore/Types/HashString.h"
-#include "project/Game/Character/Character.h"
+#include "ALib/Array.h"
+#include "AvaCore/Math/Matrix.h"
+#include "AvaCore/Math/Vector.h"
+#include "Game/Interaction/InteractionGraphData/InteractionGraphUserEdge.h"
+#include "Game/Interaction/InteractionGraphData/InteractionGraphExit.h"
+#include "Game/Interaction/InteractionGraphEntry.h"
+#include "Game/Interaction/InteractionGraphData/InteractionGraphTransition.h"
+#include "Game/Interaction/InteractionGraphData/InteractionGraphNode.h"
+#include "Game/Interaction/InteractionGraph.h"
+#include "Game/Interaction/InteractionTrigger.h"
+#include "Game/Interaction/InteractionContext.h"
+#include "Game/Interaction/Interaction.h"
+#include "AvaCore/Types/HashString.h"
+#include "Game/Character/Character.h"
 
 class CEntryValidationInScope {
     private: 
